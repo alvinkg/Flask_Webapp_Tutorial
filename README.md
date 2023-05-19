@@ -56,4 +56,8 @@ When signing up the password that is accepted is saved hashed.  Logging in will 
 
 We can add decorators to our methods to ensure a better user experience, by directing him to login and ensuring he cannot access pages till he is logged in.
 
-## New Topic
+## Nav Bar dynamic to login state of user
+
+1:57
+Add user=current_user
+By passing the 'user=current_user' in the render_template method, the navbar can respond to the login state.
