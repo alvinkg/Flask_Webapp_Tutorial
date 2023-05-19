@@ -45,3 +45,15 @@ Flask_SQLAlchemy no longer accepts an app argument to 'create_all'.  So we need 
     
     return app # this returns the app when called
 ```
+
+Had a bit of error when my names of my login page form did not match the names in the auth.py code.  
+
+## Learn how to use hash password cmd in Flask
+
+When signing up the password that is accepted is saved hashed.  Logging in will compare the two passwords using a flask method.
+
+## How to use login, logout mtd in Flask
+
+We can add decorators to our methods to ensure a better user experience, by directing him to login and ensuring he cannot access pages till he is logged in.
+
+## New Topic
